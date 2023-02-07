@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(44, 40, 38);
+}
+main {
+    display: flex;
+    margin-left:  80px;
+    margin-top: 50px;
+}
+textarea{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.alinear{
+    display: flex;
+    justify-content: center;
+}
+
+button, h1{
+    background-color: darkblue;
+    color: white; 
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.informacion {
+    font-size: 15px;
+}
+.input-texto {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-color: rgb(215, 239, 239);
+    background-repeat: none;
+    background-position: 18px;
+    background-size: 300px;
+}
+
+.mensaje {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-color: rgb(215, 239, 239);
+    background-repeat: none;
+    background-position: 18px;
+    background-size: 300px;
+}
+
+.botones {
+    display: grid;
+}
